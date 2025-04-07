@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .item{
     background-color: blue; 
     color: white;
@@ -12,11 +9,20 @@
     align-items: center;
 }
 .container{
-    height: 100vh;
-    width: 30vw;
+    height: 30vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap:wrap
 
+}
+#listas{
+    padding: 100px;
+}
+ol{
+    list-style: upper-roman;
+}
+ul{
+    list-style: url('./image/correto.png');
 }
